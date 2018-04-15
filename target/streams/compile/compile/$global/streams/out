@@ -1,6 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/Old Project Working/2ndYearProject-803d4afd3ec4a232a9cb7d02e51eb0ae494fb3f6/app/views/addProduct.scala.html:10:10: missing argument list for method apply in object form[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_,_)(_)` instead of `apply`.[0m
-[0m[[0m[31merror[0m] [0m[0m    @form(action=routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form")[0m
-[0m[[0m[31merror[0m] [0m[0m         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/Old Project Working/2ndYearProject-803d4afd3ec4a232a9cb7d02e51eb0ae494fb3f6/app/controllers/HomeController.java:98:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable addProduct[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m            return badRequest(addProduct.render(newProductForm));[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/Old Project Working/2ndYearProject-803d4afd3ec4a232a9cb7d02e51eb0ae494fb3f6/app/controllers/HomeController.java:107:1: package controller.routes does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m            return redirect(controller.routes.HomeController.Laptop());[0m

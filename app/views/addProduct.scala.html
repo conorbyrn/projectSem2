@@ -7,7 +7,7 @@
 @main("Add Product") {
     <p class="lead">Add a new product</p>
 
-    @form(action=routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form")
+    @form(action=routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form"){
         @* CSRF attack prevention *@
         @* This token, send by the controller, will be used to authenticate the form bubmission *@
         @CSRF.formField
@@ -28,4 +28,5 @@
                 
                 </a>
         </div>
-}   
+    }   
+}

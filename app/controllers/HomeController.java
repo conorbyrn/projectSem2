@@ -84,7 +84,7 @@ public class HomeController extends Controller {
     public Result addProduct() {
         
 
-        Form<Product> productForm = formFactory.form(product.class);
+        Form<Product> productForm = formFactory.form(Product.class);
 
         return ok(views.html.addProduct.render(productForm));
 
@@ -104,7 +104,7 @@ public class HomeController extends Controller {
             
             flash("success", "Product "+ newProduct.getName() + "was added");
 
-            return redirect(controller.routes.HomeController.index());
+            return redirect(controller.routes.HomeController.Laptop());
             
         
         }
