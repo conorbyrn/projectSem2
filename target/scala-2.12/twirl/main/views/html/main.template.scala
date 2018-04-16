@@ -103,6 +103,7 @@ Copyright <strong>Online Shop</strong>
 </div>
 
 </container>
+<script src=""""),_display_(/*74.15*/routes/*74.21*/.Assets.versioned("javascripts/main.js")),format.raw/*74.61*/(""""></script>"
 
 </body>
 
@@ -122,11 +123,11 @@ Copyright <strong>Online Shop</strong>
 
               /*
                   -- GENERATED --
-                  DATE: Fri Apr 13 12:30:32 IST 2018
+                  DATE: Mon Apr 16 01:28:47 IST 2018
                   SOURCE: /home/wdd/webapps/Old Project Working/2ndYearProject-803d4afd3ec4a232a9cb7d02e51eb0ae494fb3f6/app/views/main.scala.html
-                  HASH: 5a7676b9838935e0fe398465f9cbcd59339ff5db
-                  MATRIX: 952->1|1077->31|1105->33|1221->122|1247->127|1446->299|1461->305|1523->346|1970->767|1997->774|2026->776
-                  LINES: 28->1|33->1|35->3|43->11|43->11|49->17|49->17|49->17|85->53|85->53|87->55
+                  HASH: c0a40f6ef40d5c193258c108a6da98bfdb885cd6
+                  MATRIX: 952->1|1077->31|1105->33|1221->122|1247->127|1446->299|1461->305|1523->346|1970->767|1997->774|2026->776|2223->946|2238->952|2299->992
+                  LINES: 28->1|33->1|35->3|43->11|43->11|49->17|49->17|49->17|85->53|85->53|87->55|106->74|106->74|106->74
                   -- GENERATED --
               */
           

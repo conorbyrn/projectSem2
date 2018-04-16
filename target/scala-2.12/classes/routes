@@ -10,9 +10,11 @@ GET     /about                           controllers.HomeController.about()
 GET     /Phones                          controllers.HomeController.Phones()
 GET     /tv                              controllers.HomeController.tv()
 GET     /Laptop                          controllers.HomeController.Laptop()
-
-GET     /addproduct                      controllers.HomeController.addProduct
-
+#Add Product
+GET     /addProduct                      controllers.HomeController.addProduct
+POST    /addProductSubmit                controllers.HomeController.addProductSubmit
+#Delete Product
+GET     /delProduct/:id                  controllers.HomeController.deleteProduct(id: Long)
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 

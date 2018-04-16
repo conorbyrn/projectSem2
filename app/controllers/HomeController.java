@@ -95,7 +95,7 @@ public class HomeController extends Controller {
         Form<Product> newProductForm = formFactory.form(Product.class).bindFromRequest();
 
         if (newProductForm.hasErrors()) {
-            return badRequest(addProduct.render(newProductForm));
+            return badRequest(views.html.addProduct.render(newProductForm));
 
         }else {
             Product newProduct = newProductForm.get();
@@ -104,11 +104,23 @@ public class HomeController extends Controller {
             
             flash("success", "Product "+ newProduct.getName() + "was added");
 
-            return redirect(controller.routes.HomeController.Laptop());
+            return redirect(controllers.routes.HomeController.Laptop());
             
         
         }
+    }
+
+    public Result deleteProduct(Long id){
+    
+    
+        Product.find.ref(id).delete();
+
+        flash("success", "Product has been deleted");
+
+        return redirect(routes.HomeController.Laptop());
+
+    
         
     }
-    
+
 }
